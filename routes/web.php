@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/student', '\App\Http\Controllers\StudController@pozdrav');
+Route::get('/student1', '\App\Http\Controllers\StudController@uci');
+Route::get('/studenti','\App\Http\Controllers\StudController@lista');
