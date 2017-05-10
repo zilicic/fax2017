@@ -17,7 +17,7 @@ class StudTableSeeder extends Seeder
 	        DB::table('studs')->insert([
 	            'imeStud' => $faker->name,
 	            'email' => $faker->email,
-	            'pbrStan' => substring($faker->postcode,0,5),
+	            'pbrStan' => substr($faker->postcode, 0,5),
 	        ]);
         }
     }
