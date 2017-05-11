@@ -18,6 +18,8 @@ class CreateStudsTable extends Migration
             $table->string('imeStud',100);
             $table->string('email',100)->nullable()->unique();
             $table->integer('pbrStan');
+            $table->integer('pbrRod');
+            $table->datetime('datRodStud');
             $table->timestamps();
         });
     }
