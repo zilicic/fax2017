@@ -18,4 +18,4 @@ Route::get('/student', '\App\Http\Controllers\StudController@pozdrav');
 Route::get('/student1', '\App\Http\Controllers\StudController@uci');
 Route::get('/studenti','\App\Http\Controllers\StudController@lista');
 Route::get('/automobil','\App\Http\Controllers\CarController@marka');
-Route::get('/automobil2,'\App\Http\Controllers\CarController@boja');
+Route::get('/automobil2','\App\Http\Controllers\CarController@boja');
