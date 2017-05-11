@@ -18,7 +18,9 @@ class StudTableSeeder extends Seeder
 	            'imeStud' => $faker->name,
 	            'email' => $faker->email,
 	            'pbrStan' => substr($faker->postcode, 0,5),
-	        ]);
+                    'pbrRod'=>substr($faker->postcode, 0,5),
+                    'datRodStud'=>$faker->dateTime,                 
+       	        ]);
         }
     }
 }
