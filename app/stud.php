@@ -1,5 +1,5 @@
 <?php
-// kreirano naredbom 
+// kreirano naredbom "php artisan make:model stud -m"
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
